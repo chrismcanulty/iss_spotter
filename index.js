@@ -17,6 +17,8 @@ nextISSTimesForMyLocation((error, passTimes) => {
   printPassTimes(passTimes);
 });
 
+module.exports = { printPassTimes };
+
 // Once index has array of flyover times, it can loop through the data and print out the string
 
 // fetchMyIP((error, ip) => {
